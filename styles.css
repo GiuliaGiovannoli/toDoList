@@ -1,0 +1,178 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: lightslategray;
+}
+
+.hero {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.5rem;
+  color: lightsteelblue;
+  margin: 2%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo-container {
+  margin: 2%;
+}
+
+.todo-boxs {
+  background-color: lightsteelblue;
+  width: 100%;
+  height: 80%;
+}
+
+.box {
+  background-color: whitesmoke;
+  border: 2px solid lightslategray;
+  width: 17%;
+  height: 70%;
+  margin: 5% 0;
+}
+
+.box div {
+  margin: 3%;
+}
+
+.todo-form {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.cards {
+  height: auto;
+  max-height: 450px;
+  min-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.card-text {
+  width: 100%;
+  cursor: pointer;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+textarea {
+  width: 100%;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.add,
+.edit,
+.delete,
+.clock,
+.close {
+  font-size: 1.2rem;
+  margin-right: 10%;
+}
+
+.add-card-button {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.active {
+  display: block !important;
+}
+
+.foot {
+  margin: 0;
+  padding: 0;
+}
+
+.feet {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.firstcol {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 2%;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.button {
+  border: 2px solid lightsteelblue;
+  color: lightsteelblue;
+  line-height: 2;
+  width: 150%;
+  text-align: center;
+  background: transparent;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: 5%;
+}
+
+.button:hover {
+  background: lightslategray;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .feet {
+    display: block;
+  }
+  .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .container {
+    flex-flow: column wrap;
+  }
+  .box {
+    width: 50%;
+    margin: 5%;
+    height: 25%;
+  }
+}
