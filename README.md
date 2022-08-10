@@ -1,17 +1,23 @@
+# Hello there! 
 
-Hello there!
-I am Giulia and I am a full stack Web Developer
+# TO DO LIST
 
-My tools are :
-React, Javascript, Node, Express, HTML, CSS, SQL, MongoDB, Material UI and Bootstrap
+## About
 
-You can find me and reach out on Linkedin
-www.linkedin.com/in/giulia-giovannoli
+About this Project: WBS coding School project for a TO DO LIST.
 
-About this Project:
-WBS coding School project for a TO DO LIST.
+## Technologies
 
-Tools here used: Javascript, CSS and HTML.
+This project has been made using:
 
-Thank you for checking the Project!
+- JavaScript, HTML and CSS.
 
+## Contacts
+
+Feel free to reach out!
+
+- [Linkedin](https://www.linkedin.com/in/giulia-giovannoli/)
+- [GitHub](https://github.com/GiuliaGiovannoli)
+
+
+# Thank you for checking the Project!
